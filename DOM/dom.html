@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dom</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <div id="main" class="card" style="border: solid green 20px;">
+                <div class="card-content"><span class="card-title">Task List</span>
+                    <div class="row">
+                        <form action="" id="task-form">
+                            <div class="input-field col s12">
+                                <input type="text" id="task" value="Walk the dog">
+                                <label for="task">New Task</label>
+                            <!-- </div>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select> -->
+                            <input id="btnAddTask" type="submit" value="add task" class="btn
+                        green waves-effect">
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="card-action">
+                    <h5 id="task-title">Tasks</h5>
+                    <ul style="border: solid rgb(116, 3, 110) 2px;" class="collection">
+                        <li class="collection-item">List item<a class="delete-item secondary-content">
+                            <i class="fas fa-user-times"></i></a>
+                        </li>
+                        <li class="collection-item">List item<a class="delete-item secondary-content">
+                            <i class="fas fa-user-times"></i></a>
+                        </li>
+                        <li class="collection-item">List item<a class="delete-item secondary-content">
+                            <i class="fas fa-user-times"></i></a>
+                        </li>
+                        <li class="collection-item">List item<a class="delete-item secondary-content">
+                            <i class="fas fa-user-times"></i></a>
+                        </li>
+                        
+                    </ul>
+                    <a class="clear-task btn purple">Clear Task</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- <script type="text/javascript" src="js/Nodes.js"></script> -->
+<!-- <script type="text/javascript" src="js/clearBtn.js"></script> -->
+<!-- <script type="text/javascript" src="js/select.js"></script> -->
+<script type="text/javascript" src="js/eventdeligation.js"></script>
+<!-- <script type="text/javascript" src="js/addEventListener.js"></script> -->
+<!-- <script type="text/javascript" src="js/replace.js"></script> -->
+<!-- <script type="text/javascript" src="js/createElement.js"></script> -->
+<!-- <script type="text/javascript" src="js/getDocumentbyClassName.js"></script> -->
+<!-- <script type="text/javascript" src="js/dom.js"></script> -->
+<!-- <script type="text/javascript" src="js/get.js"></script> -->
+<!-- <script>
+    $(document).ready(function () {
+    
+    
+    
+    });
+</script> -->
+</body>
+
+</html>
